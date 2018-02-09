@@ -1,0 +1,12 @@
+/* 
+  Applies a gradient as a text color. For non-text objects, try mix-blend-mode. 
+  Source: https://getbabb.com/whitepaper
+*/
+
+.text {
+    background-image: repeating-linear-gradient(110deg,#b91e73 0%,#00a6df 50%,#b91e73 80%,#b91e73 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
