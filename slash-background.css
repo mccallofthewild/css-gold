@@ -1,3 +1,7 @@
+
+/* 
+  Creates a slash as a background. Useful for diagonal corner pieces and background framing. 
+*/
 .bg {
   background: linear-gradient(to right, black 50%, white 50.01%);
   background-size: cover;
